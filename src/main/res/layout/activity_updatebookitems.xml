@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <RelativeLayout
+        android:id="@+id/rl_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imageframe">
+
+        <ImageView
+            android:id="@+id/bookimage_update"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_imgback" />
+
+        <TextView
+            android:id="@+id/c_bookisbnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookimage_update"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/b_isbn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bookisbn_update"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookimage_update"
+            android:layout_toRightOf="@+id/c_bookisbnupdate"
+            android:hint="@string/h2"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/c_booknameupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_bookisbnupdate"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/b_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bookname_update"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_bookisbnupdate"
+            android:layout_toRightOf="@+id/c_booknameupdate"
+            android:hint="@string/h3"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/c_bookpriceupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_booknameupdate"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/b_price"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bookprice_update"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_booknameupdate"
+            android:layout_toRightOf="@+id/c_bookpriceupdate"
+            android:hint="@string/h4"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookprice_update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/kellygreen"
+            android:text="@string/update"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gapes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_bookpriceupdate"
+            android:layout_marginTop="20dp"/>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

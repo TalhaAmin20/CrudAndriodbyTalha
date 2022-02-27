@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name"><u>BookStoreApp</u></string>
+    <string name="title">Book Store App</string>
+    <string name="b_id">Book Id:</string>
+    <string name="h1">Enter The Book Id</string>
+    <string name="b_isbn">Book ISBN:</string>
+    <string name="h2">Enter The Book ISBN</string>
+    <string name="b_name">Book Name:</string>
+    <string name="h3">Enter The Book Name</string>
+    <string name="b_price">Book Price:</string>
+    <string name="h4">Enter The Book Price</string>
+    <string name="c_img">Choose Image:</string>
+    <string name="c_imgbtn">Choose Image <b>+</b></string>
+    <string name="insert">Insert</string>
+    <string name="showallrecord">Show All Records</string>
+    <string name="line">=====================</string>
+    <string name="update">Update</string>
+    <string name="newbookname">New Book Name:</string>
+    <string name="h5">Enter The New Book Name</string>
+    <string name="showupdaterecord">Show Updated Record</string>
+    <string name="h6">Enter The New Book ISBN</string>
+    <string name="h7">Enter The New Book Price</string>
+    <string name="newbookisbn">New Book ISBN:</string>
+    <string name="newbookprice">New Book Price:</string>
+    <string name="bookdelisbn">Book ISBN # :</string>
+    <string name="h8">Enter The Book ISBN NUMBER</string>
+    <string name="delete">Delete</string>
+    <string name="h9">Enter The Book Name To View Record</string>
+    <string name="viewrecord">View Record</string>
+    <string name="C_bookname">Book Name</string>
+    <string name="C_bookisbn">Book ISBN</string>
+    <string name="C_bookprice">Book Price</string>
+    <string name="RECORDS"> <u>Records Summary</u></string>
+
+</resources>

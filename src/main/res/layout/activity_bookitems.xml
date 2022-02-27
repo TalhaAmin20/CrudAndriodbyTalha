@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/framestyle">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imageframe">
+
+        <ImageView
+            android:id="@+id/bookimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_imgback" />
+
+        <TextView
+            android:id="@+id/c_bookisbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_isbn"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/t_size"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@+id/bookimage"/>
+
+        <TextView
+            android:id="@+id/bookisbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/C_bookisbn"
+            android:layout_below="@+id/bookimage"
+            android:layout_toRightOf="@id/c_bookisbn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/c_bookname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_name"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/t_size"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@+id/c_bookisbn"/>
+
+        <TextView
+            android:id="@+id/bookname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookisbn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/C_bookname"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size"
+            android:layout_toRightOf="@+id/c_bookname"/>
+
+        <TextView
+            android:id="@+id/c_bookprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_price"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/t_size"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@+id/c_bookname"/>
+
+        <TextView
+            android:id="@+id/bookprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c_bookname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/c_bookprice"
+            android:text="@string/C_bookprice"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t_size" />
+
+<TextView
+    android:id="@+id/gapes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/c_bookprice"
+    android:layout_marginTop="20dp"/>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
